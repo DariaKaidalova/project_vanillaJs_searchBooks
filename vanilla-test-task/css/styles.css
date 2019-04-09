@@ -1,0 +1,65 @@
+.l-html {}
+.l-body {}
+.l-content {}
+.b-content {
+  max-width: 900px;
+  min-width: 600px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.l-form {
+  min-height: 30px;
+  margin: 0 0 20px;
+}
+.b-form {}
+.b-form__field {
+  width: 250px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-bottom: 2px solid gray;
+  outline: 0;
+}
+
+.l-table {
+  height: calc(100vh - 70px);
+  overflow: auto;
+}
+.b-table {
+  width: 100%;
+}
+.b-table__body {
+  height: calc(100vh - 50px);
+}
+
+.b-table tr {
+  border-bottom: 1px solid gray;
+}
+
+.b-table thead tr {
+  border-bottom: 2px solid gray;
+  background: #e8e2e2;
+}
+
+.b-table td, .b-table th {
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.b-table td.-type_image, .b-table th.-type_image {
+  width: 20%;
+  padding-left: 15px;
+}
+.b-table td.-type_image {
+  text-align: center;
+}
+.b-table td.-type_title, .b-table th.-type_title {
+  width: 30%;
+}
+.b-table td.-type_description, .b-table th.-type_description {
+  width: 50%;
+  padding-right: 15px;
+}
